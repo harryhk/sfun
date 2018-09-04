@@ -1,7 +1,7 @@
 #!/usr/bin/env python 
 import sqlite3 as sql 
 
-
+# I am sooooo confused
 def createStocks(cursor):
     
     cursor.execute('drop table if exists stocks;')
